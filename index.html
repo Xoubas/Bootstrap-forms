@@ -7,11 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"> 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="container">
         <div class="row">
-            <div class="col-2">
+            <div class="col-md-2">
                 <!--Title-->
                 <div class="form-group">
                     <label for="ttl">Title</label>
@@ -23,7 +25,7 @@
             </div>
 
             <!--First name-->
-            <div class="col-5">
+            <div class="col-md-5">
                 <div class="form-group">
                     <label for="fname">First Name</label>
                     <input type="text" class="form-control" id="fname" name="fname" placeholder="Soria">
@@ -31,7 +33,7 @@
             </div>
 
             <!--Last name-->
-            <div class="col-5">
+            <div class="col-md-5">
                 <div class="form-group">
                     <label for="sname">Last Name</label>
                     <input type="text" class="form-control" id="sname" name="sname" placeholder="Castiñeiras Magán">
@@ -39,7 +41,7 @@
             </div>
 
             <!--Gender-->
-            <div class="col-6">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label for="gend">Gender</label>
                     <select class="form-select" id="gend">
@@ -51,7 +53,7 @@
             </div>
 
             <!--Birthdate-->
-            <div class="col-6">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label for="date">Birthdate</label>
                     <input type="text" class="form-control" id="date" name="date" placeholder="dd/mm/yyyy">
@@ -59,7 +61,7 @@
             </div>
 
             <!--Address-->
-            <div class="col-12">
+            <div class="col-md-12">
                 <div class="form-group">
                     <label for="Add">Address</label>
                     <input type="text" class="form-control" id="Add" name="Add" placeholder="Street">
@@ -67,28 +69,28 @@
             </div>
 
             <!--City-->
-            <div class="col-6">
+            <div class="col-md-6">
                 <div class="form-group">
                     <input type="text" class="form-control" id="cty" name="cty" placeholder="City">
                 </div>
             </div>
 
             <!--State-->
-            <div class="col-6">
+            <div class="col-md-6">
                 <div class="form-group">
                     <input type="text" class="form-control" id="sta" name="sta" placeholder="State">
                 </div>
             </div>
 
             <!--Post code-->
-            <div class="col-6">
+            <div class="col-md-6">
                 <div class="form-group">
                     <input type="text" class="form-control" id="pc" name="pc" placeholder="Post Code">
                 </div>
             </div>
 
             <!--Country-->
-            <div class="col-6">
+            <div class="col-md-6">
                 <div class="form-group">
                     <select class="form-select" id="ctr">
                         <option selected>Spain</option>
@@ -98,6 +100,11 @@
                         <option value="4">EE. UU.</option>
                     </select>
                 </div>
+            </div>
+
+            <!--Button-->
+            <div class="d-flex justify-content-end">
+                <input type="button" class="btn btn-primary mt-2 col-md-3" value="Register" onclick="sisi();">
             </div>
         </div>
     </main>
